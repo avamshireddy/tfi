@@ -110,6 +110,7 @@ function Quiz() {
     (ans, idx) => ans === questions[idx].answer
   ).length;
 
+  /* ================= RESULT SCREEN ================= */
   if (showResult) {
     const isAllCorrect = score === questions.length;
     const selectedVideo = isAllCorrect ? resultVideo : videos;
@@ -117,18 +118,15 @@ function Quiz() {
     return (
       <div className="quiz-container">
         <img src={logo} alt="Logo" className="logo" />
-        <h2>Nuvvu thopu ra, {userName}! </h2>
+
+        <h2>Nuvvu thopu ra, {userName}!</h2>
         <p>You scored {score} out of {questions.length}</p>
 
         <div className="result-video-container">
-  <video
-    className="result-video"
-    controls
-    autoPlay
-  >
-    <source src={selectedVideo} type="video/mp4" />
-  </video>
-</div><br></br>
+          <video className="result-video" controls autoPlay>
+            <source src={selectedVideo} type="video/mp4" />
+          </video>
+        </div>
 
         <button
           onClick={() => {
@@ -138,10 +136,15 @@ function Quiz() {
         >
           Logout
         </button>
+
+        <footer className="footer">
+          © 2026 VamshiKrishna. All Rights Reserved.
+        </footer>
       </div>
     );
   }
 
+  /* ================= QUIZ SCREEN ================= */
   return (
     <div className="quiz-container">
       <img src={logo} alt="Logo" className="logo" />
@@ -183,7 +186,6 @@ function Quiz() {
           </div>
         )}
 
-        {/* IMAGE APPEARS AFTER ATTEMPT */}
         {answers[currentIndex] !== null && (
           <div className="image-container">
             <img
@@ -203,9 +205,13 @@ function Quiz() {
         <button onClick={handleNext}>
           {currentIndex === questions.length - 1 ? "Finish" : "Next"}
         </button>
-      </div>
+      </div><br></br>
+
+      <footer className="footer">
+        © 2026 VamshiKrishna. All Rights Reserved.
+      </footer>
     </div>
   );
 }
 
-export default Quiz;
+export default Quiz;  
