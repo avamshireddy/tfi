@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/tfi/static/css/main.58de917e.css",
-    "main.js": "/tfi/static/js/main.b156533c.js",
+    "main.css": "/tfi/static/css/main.64a9ae10.css",
+    "main.js": "/tfi/static/js/main.ecb92b8b.js",
     "static/js/453.80d642fb.chunk.js": "/tfi/static/js/453.80d642fb.chunk.js",
     "static/media/video.mp4": "/tfi/static/media/video.2807f342b2bd1dd1e363.mp4",
     "static/media/videos.mp4": "/tfi/static/media/videos.a8978785ffec9172a82c.mp4",
@@ -19,12 +19,12 @@
     "static/media/logo.png": "/tfi/static/media/logo.baa14ff70657d155847c.png",
     "static/media/cricket.jpg": "/tfi/static/media/cricket.e354359a12496a88fff9.jpg",
     "index.html": "/tfi/index.html",
-    "main.58de917e.css.map": "/tfi/static/css/main.58de917e.css.map",
-    "main.b156533c.js.map": "/tfi/static/js/main.b156533c.js.map",
+    "main.64a9ae10.css.map": "/tfi/static/css/main.64a9ae10.css.map",
+    "main.ecb92b8b.js.map": "/tfi/static/js/main.ecb92b8b.js.map",
     "453.80d642fb.chunk.js.map": "/tfi/static/js/453.80d642fb.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.58de917e.css",
-    "static/js/main.b156533c.js"
+    "static/css/main.64a9ae10.css",
+    "static/js/main.ecb92b8b.js"
   ]
 }
