@@ -126,7 +126,7 @@ function Quiz() {
           <video className="result-video" controls autoPlay>
             <source src={selectedVideo} type="video/mp4" />
           </video>
-        </div>
+        </div><br></br>
 
         <button
           onClick={() => {
@@ -135,7 +135,7 @@ function Quiz() {
           }}
         >
           Logout
-        </button>
+        </button><br></br><br></br>
 
         <footer className="footer">
           © 2026 VamshiKrishna. All Rights Reserved.
@@ -205,7 +205,7 @@ function Quiz() {
         <button onClick={handleNext}>
           {currentIndex === questions.length - 1 ? "Finish" : "Next"}
         </button>
-      </div><br></br>
+      </div><br></br><br></br>
 
       <footer className="footer">
         © 2026 VamshiKrishna. All Rights Reserved.
