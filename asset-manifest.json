@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/tfi/static/css/main.f60da50c.css",
-    "main.js": "/tfi/static/js/main.1fe52358.js",
+    "main.css": "/tfi/static/css/main.7a270fa8.css",
+    "main.js": "/tfi/static/js/main.788948e5.js",
     "static/js/453.80d642fb.chunk.js": "/tfi/static/js/453.80d642fb.chunk.js",
     "static/media/video.mp4": "/tfi/static/media/video.2807f342b2bd1dd1e363.mp4",
     "static/media/videos.mp4": "/tfi/static/media/videos.a8978785ffec9172a82c.mp4",
@@ -9,22 +9,22 @@
     "static/media/login-bg.jpg": "/tfi/static/media/login-bg.f1e23e3a9b9727bebfaa.jpg",
     "static/media/lion.jpeg": "/tfi/static/media/lion.382308ccff759d73ee01.jpeg",
     "static/media/cheetah.jpeg": "/tfi/static/media/cheetah.0dc3d1b596ba74fc5878.jpeg",
-    "static/media/background.jpeg": "/tfi/static/media/background.651227e1bd1e645fa659.jpeg",
     "static/media/jupiter.jpg": "/tfi/static/media/jupiter.5b0b4a2b079f20daf055.jpg",
     "static/media/prabhas.jpg": "/tfi/static/media/prabhas.1b0aceb4ebe0bb4e57e9.jpg",
     "static/media/tajmahal.jpg": "/tfi/static/media/tajmahal.2194decfc4654dae06d6.jpg",
+    "static/media/background.jpeg": "/tfi/static/media/background.a50d78e81d9fb1dedbca.jpeg",
     "static/media/peacock.jpg": "/tfi/static/media/peacock.c04762e940604c3b5f7b.jpg",
     "static/media/gita.jpg": "/tfi/static/media/gita.eb4074a9e7003cf7cc00.jpg",
     "static/media/ganges.jpg": "/tfi/static/media/ganges.3521ee521cbb8add192a.jpg",
     "static/media/logo.png": "/tfi/static/media/logo.baa14ff70657d155847c.png",
     "static/media/cricket.jpg": "/tfi/static/media/cricket.e354359a12496a88fff9.jpg",
     "index.html": "/tfi/index.html",
-    "main.f60da50c.css.map": "/tfi/static/css/main.f60da50c.css.map",
-    "main.1fe52358.js.map": "/tfi/static/js/main.1fe52358.js.map",
+    "main.7a270fa8.css.map": "/tfi/static/css/main.7a270fa8.css.map",
+    "main.788948e5.js.map": "/tfi/static/js/main.788948e5.js.map",
     "453.80d642fb.chunk.js.map": "/tfi/static/js/453.80d642fb.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f60da50c.css",
-    "static/js/main.1fe52358.js"
+    "static/css/main.7a270fa8.css",
+    "static/js/main.788948e5.js"
   ]
 }
