@@ -120,9 +120,15 @@ function Quiz() {
         <h2>Nuvvu thopu ra, {userName}! </h2>
         <p>You scored {score} out of {questions.length}</p>
 
-        <video width="500" controls autoPlay>
-          <source src={selectedVideo} type="video/mp4" />
-        </video><br></br>
+        <div className="result-video-container">
+  <video
+    className="result-video"
+    controls
+    autoPlay
+  >
+    <source src={selectedVideo} type="video/mp4" />
+  </video>
+</div><br></br>
 
         <button
           onClick={() => {
